@@ -1,4 +1,5 @@
 import './App.css';
+import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
@@ -9,6 +10,7 @@ export default function App() {
     <>
     <Header />
     <HeroSection />
+    <AboutSection />
     <MenuSection />
     <ContactSection />
     </>
